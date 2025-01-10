@@ -1,8 +1,0 @@
-{
-  "name": "@gc-apps/tickets",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "workspace:^",
-    "@gc-packages/ui": "^1.0.0"
-  }
-}
