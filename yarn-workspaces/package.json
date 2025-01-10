@@ -1,0 +1,8 @@
+{
+  "name": "gc-fe-yarn-workspaces",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

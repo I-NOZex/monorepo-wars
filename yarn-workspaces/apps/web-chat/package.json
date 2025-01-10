@@ -1,0 +1,8 @@
+{
+  "name": "@gc-apps/web-chat",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "workspace:^",
+    "@gc-packages/ui": "^1.0.0"
+  }
+}
