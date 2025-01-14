@@ -1,0 +1,14 @@
+{
+  "name": "lage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "lage": "^2.12.6"
+  }
+}
