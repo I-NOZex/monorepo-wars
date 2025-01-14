@@ -7,3 +7,7 @@ tasks:
     command: 'jest --passWithNoTests .'
   typecheck:
     command: 'tsc --build'
+  storybook:
+    command: storybook dev
+  dev:
+    command: vite
