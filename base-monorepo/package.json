@@ -1,0 +1,25 @@
+{
+  "name": "gocontact",
+  "packageManager": "yarn@4.6.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach --include 'apps/*' --all run build",
+    "start:web-chat": "yarn workspace @gocontact-apps/web-chat dev",
+    "start:tickets": "yarn workspace @gocontact-apps/tickets dev"
+  },
+  "engines": {
+    "node": "^20"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "prettier-eslint": "^16.3.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
