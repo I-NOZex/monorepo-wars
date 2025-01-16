@@ -1,0 +1,6 @@
+{
+  "imports": {
+      "@gocontact/app1": "http://localhost:4101/spa.js",
+      "@gocontact/app2": "http://localhost:4102/spa.js"
+  }
+}
